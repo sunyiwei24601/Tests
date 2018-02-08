@@ -1,0 +1,165 @@
+1517293765600	geckodriver	INFO	geckodriver 0.19.1
+1517293765611	geckodriver	INFO	Listening on 127.0.0.1:50757
+1517293768637	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.7XYkrmJEFDaH"
+1517293770111	Marionette	INFO	Enabled via --marionette
+1517293773153	Marionette	INFO	Listening on port 50765
+1517293773877	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+1517293876931	Marionette	INFO	Listening on port 50857
+1517293877594	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+93893511	Marionette	INFO	Listening on port 50891
+1517293893748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517293918640	geckodriver	INFO	geckodriver 0.19.1
+1517293918647	geckodriver	INFO	Listening on 127.0.0.1:50977
+1517293921744	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.9qrap6YySKeV"
+1517293922456	Marionette	INFO	Enabled via --marionette
+1517293924314	Marionette	INFO	Listening on port 50987
+1517293924931	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js, line 2: Error: t@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:6:39306
+fetch@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:6:39689
+getStrawSingle/<@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:11250
+s@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:2:727
+getStrawSingle@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:11058
+_do/<@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:9545
+error@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:5:10904
+_ioReady@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:19182
+_callback@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:16593
+error@https://g.alicdn.com/??kissy/k/6.2.4/event-custom-min.js,kissy/k/6.2.4/event-base-min.js,kissy/k/6.2.4/io-min.js,kissy/k/6.2.4/io-extra-min.js,kissy/k/6.2.4/io-base-min.js,kissy/k/6.2.4/promise-min.js,kissy/k/6.2.4/dom-base-min.js,kissy/k/6.2.4/query-selector-base-min.js,kissy/k/6.2.4/dom-extra-min.js,kissy/k/6.2.4/io-form-min.js,kissy/k/6.2.4/node-min.js,kissy/k/6.2.4/node-base-min.js,kissy/k/6.2.4/node-event-min.js,kissy/k/6.2.4/event-dom-base-min.js,kissy/k/6.2.4/event-dom-extra-min.js,kissy/k/6.2.4/event-gesture-min.js,kissy/k/6.2.4/event-touch-min.js,kissy/k/6.2.4/node-anim-min.js,kissy/k/6.2.4/anim-transition-min.js,kissy/k/6.2.4/anim-base-min.js,kissy/k/6.2.4/cookie-min.js,kissy/k/6.2.4/event-min.js,kissy/k/6.2.4/base-min.js,kissy/k/6.2.4/attribute-min.js,kissy/k/6.2.4/json-base-min.js,kg/attr-anim/6.0.6/index-min.js,kg/xctrl/7.2.1/xctrl-kissy-min.js,sd/sufei/0.2.4/app/common/sufei-kissy.js,kg/offline/7.0.1/index-min.js,kg/session/0.0.1/index-min.js,kg/slide/6.0.8/index-min.js,kg/straw/1.0.2/index-min.js,kg/datalazyload/6.0.10/index-min.js,kg/route-map-http/0.0.3/index.js:1:16442
+w/<@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.0.8/index.js:5:26613
+[18]</n.each@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.0.8/index.js:5:25759
+w@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.0.8/index.js:5:26579
+r/b.onerror@https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.2.1/p/index/index.js,kg/tb-nav/2.5.3/index-min.js,secdev/sufei_data/3.0.8/index.js:5:26767
+
+[Parent 17888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517295518344	geckodriver	INFO	geckodriver 0.19.1
+1517295518353	geckodriver	INFO	Listening on 127.0.0.1:51253
+1517295521477	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.6PfhBJzglAyL"
+1517295522171	Marionette	INFO	Enabled via --marionette
+1517295524755	Marionette	INFO	Listening on port 51261
+1517295525097	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://drc.alicdn.com/7/1947787_0____?callback=jsonp1947787_0____, line 1: ReferenceError: jsonp1947787_0____ is not defined
+1517295762643	geckodriver	INFO	geckodriver 0.19.1
+1517295762650	geckodriver	INFO	Listening on 127.0.0.1:51433
+1517295765743	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.u9BnVj1EAtgu"
+1517295766324	Marionette	INFO	Enabled via --marionette
+1517295768166	Marionette	INFO	Listening on port 51443
+1517295768879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517295929369	geckodriver	INFO	geckodriver 0.19.1
+1517295929380	geckodriver	INFO	Listening on 127.0.0.1:51567
+1517295932501	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.LMMDxqhy6H7L"
+1517295933377	Marionette	INFO	Enabled via --marionette
+1517295935943	Marionette	INFO	Listening on port 51575
+1517295936123	Marionette	WARN	TLS certificate errors will be ignored for this session
+1517296331647	geckodriver	INFO	geckodriver 0.19.1
+1517296331653	geckodriver	INFO	Listening on 127.0.0.1:51742
+1517296334756	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.CRnZFk5gy4Ez"
+1517296335373	Marionette	INFO	Enabled via --marionette
+1517296337163	Marionette	INFO	Listening on port 51750
+1517296337873	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 17760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517296406698	geckodriver	INFO	geckodriver 0.19.1
+1517296406705	geckodriver	INFO	Listening on 127.0.0.1:51956
+1517296409824	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.n4rQCdV6aauX"
+1517296410428	Marionette	INFO	Enabled via --marionette
+1517296412321	Marionette	INFO	Listening on port 51964
+1517296412958	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5492, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 17584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517296454053	geckodriver	INFO	geckodriver 0.19.1
+1517296454060	geckodriver	INFO	Listening on 127.0.0.1:52107
+1517296457141	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.G24AVzVgahxd"
+1517296457767	Marionette	INFO	Enabled via --marionette
+1517296459670	Marionette	INFO	Listening on port 52116
+1517296460265	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common1517296527592	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.6kZn1rD9PpPZ"
+1517296528314	Marionette	INFO	Enabled via --marionette
+1517296530458	Marionette	INFO	Listening on port 52262
+1517296530713	Marionette	WARN	TLS certificate errors will be ignored for this session
+ium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517296539520	geckodriver	INFO	geckodriver 0.19.1
+1517296539527	geckodriver	INFO	Listening on 127.0.0.1:52357
+1517296542608	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.fkeVt3C2wy12"
+1517296543226	Marionette	INFO	Enabled via --marionette
+1517296545094	Marionette	INFO	Listening on port 52365
+1517296545733	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517296636954	geckodriver	INFO	geckodriver 0.19.1
+1517296636962	geckodriver	INFO	Listening on 127.0.0.1:52505
+1517296640042	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.q08kwqhjKnsC"
+1517296640715	Marionette	INFO	Enabled via --marionette
+1517296642726	Marionette	INFO	Listening on port 52513
+1517296643170	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1517296948012	geckodriver	INFO	geckodriver 0.19.1
+1517296948019	geckodriver	INFO	Listening on 127.0.0.1:52688
+1517296951120	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.arWMG8hAdQKp"
+1517296951721	Marionette	INFO	Enabled via --marionette
+1517296953550	Marionette	INFO	Listening on port 52696
+1517296954245	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+[Child 16592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
