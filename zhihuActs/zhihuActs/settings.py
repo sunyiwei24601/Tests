@@ -47,10 +47,10 @@ DEFAULT_REQUEST_HEADERS = {
     #'Accept-Encoding': 'gzip, deflate, br',
 
     'x-api-version': '3.0.40',
-    'authorization': 'Bearer 2|1:0|10:1516079727|4:z_c0|92:Mi4xa0pzZ0FBQUFBQUFBVUtkZ3pXel9EQ1lBQUFCZ0FsVk5iOWhLV3dCenFuODV2U3lfOUR4RXFkUFVxMEhuY1A4UVpn|9f79d8ed5677975e6af6ff90036cce6ebced61eaa62a484698b1ee493c8dff3b',
+    'authorization': 'Bearer 2|1:0|10:1518512590|4:z_c0|92:Mi4xa0pzZ0FBQUFBQUFBd0d6dWU2c2pEU1lBQUFCZ0FsVk56dmR2V3dCdVdlcy1MSHQ1MkFyM1dXSlpLaF9MaXcyalJ3|5c98ec54dd91baa05f5d265ba19e034bcb28f36959ff93b47bb3a598bdbccb18',
     'x-udid': 'AIBs1jz-GA2PTpjzz1T6NK3I9R2zCtydTCI=',
     'origin': 'https://www.zhihu.com',
-    'Cookie': 'q_c1=e84afa18f842439ca6ea21290194baad|1516079712000|1516079712000; capsion_ticket="2|1:0|10:1516079722|14:capsion_ticket|44:MDY3NzQ1OWUxNTEwNDNhMmI1YTg4ZmJmYWQ1M2Y2NzY=|607ea0324a5878c26b782b0142ec76f06e7d39dd33a21990c172b47747d52298"; _zap=dd4d01dc-f921-46ec-a2d0-ad9df7450d9b; z_c0="2|1:0|10:1516079727|4:z_c0|92:Mi4xa0pzZ0FBQUFBQUFBVUtkZ3pXel9EQ1lBQUFCZ0FsVk5iOWhLV3dCenFuODV2U3lfOUR4RXFkUFVxMEhuY1A4UVpn|9f79d8ed5677975e6af6ff90036cce6ebced61eaa62a484698b1ee493c8dff3b"; aliyungf_tc=AQAAALMMejeepwIAcvznZbPNo54AvQ5z; _xsrf=764ad8b6-bf62-40d6-a3c5-b46cc2ce47d0; d_c0="AIBs1jz-GA2PTpjzz1T6NK3I9R2zCtydTCI=|1517795559"',
+    #'Cookie': 'q_c1=f50fa6a18c5f4f51a25355d8cff4e8b5|1517492814000|1517492814000; _zap=c2177108-eed3-4e9e-ab21-89578ca4fa67; __utma=155987696.230811019.1517802882.1517802882.1517802882.1; __utmz=155987696.1517802882.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); aliyungf_tc=AQAAAKFLu1nt+QoAcvznZTQ4wTXmWaQ8; _xsrf=27965d9b-a682-429a-8333-b79a1d5d3333; d_c0="AMBs7nurIw2PTsIMvtr8EAld-eHpebHzNV8=|1518512063"; capsion_ticket="2|1:0|10:1518512588|14:capsion_ticket|44:Yzk0MmFhMTMwMjc1NDQzOTgwN2M2YjAxZTU3ODJjOTg=|e742864cc35fa1616bd28c3657e149b5562e2394422097b27b7d9d823ef5109c"; z_c0="2|1:0|10:1518512590|4:z_c0|92:Mi4xa0pzZ0FBQUFBQUFBd0d6dWU2c2pEU1lBQUFCZ0FsVk56dmR2V3dCdVdlcy1MSHQ1MkFyM1dXSlpLaF9MaXcyalJ3|5c98ec54dd91baa05f5d265ba19e034bcb28f36959ff93b47bb3a598bdbccb18',
     'Connection':' keep-alive'
 }
 
@@ -62,9 +62,9 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'zhihuActs.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    'zhihuActs.middlewares.ProxyMiddleware': 543,
+}
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html

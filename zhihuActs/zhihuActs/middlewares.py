@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import requests
 # Define here the models for your spider middleware
 #
 # See documentation in:
@@ -54,3 +54,14 @@ class ZhihuactsSpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+#代理服务器获取
+class ProxyMiddleware(object):
+    def __init__(self):
+        pass
+
+    def process_request(self,request,spider):
+        p=requests.get('http://localhost:5000/get')
+        ip=p.text
+
+        request.meta['proxy']='http://{}'.format(ip)
