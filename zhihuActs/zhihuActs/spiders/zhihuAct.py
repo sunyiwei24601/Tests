@@ -5,8 +5,14 @@ from zhihuActs.items import actsItem
 from scrapy import Request
 import csv
 import time
+'''运行该命令，可暂停爬虫scrapy crawl somespider -s JOBDIR=crawls/somespider-1'''
 
 class ZhihuactSpider(scrapy.Spider):
+    '''记录时间'''
+    time1=time.ctime()
+    ctime1=time.time()
+
+    '''提取目标token'''
     name = 'zhihuAct'
     filename=r'C:\Users\孙轶伟\PycharmProjects\tests\zhihuActs\zhihuActs\token_url.csv'
     lists=[]
@@ -14,31 +20,83 @@ class ZhihuactSpider(scrapy.Spider):
         reader=csv.reader(file)
         for row in reader:
             lists.append(row[0])
-    lists=lists[3:5]
-    activities=[]
-    start_urls=[]
+
+
+
+
+    unfinished_items={}
+    activities = []
+    '''这里定义初始url，由之前未完成的url和新创建的url组合而成'''
+    start_urls = []
+
+    current_token = None
+    process_id = []
+    # 用来记录进入处理流程中的id
+    finished_id = []
+    # 用来记录已经完成的id
+
+
+
+
+
+    unfinished_token=[]
+    unfinished_urls=[]
+    try:
+        with open("unfinished_url.txt") as f:
+            unfinished_items=json.load(f)
+            for log_token in unfinished_items:
+                if(unfinished_items[log_token]):
+                    process_id.append(log_token)
+                    unfinished_urls.append(unfinished_items[log_token])
+    except:
+        pass
+    '''选中用户'''
+    start_num=10
+    end_num=100
+    lists=lists[start_num:end_num]
+
+
+    for url in unfinished_urls:
+        start_urls.append(url)
+
     start_url= 'https://www.zhihu.com/api/v4/members/{user_id}/activities?limit=8&desktop=True'
     for id in lists:
-        start_urls.append(start_url.format(user_id=id))
-    #for user_id in lists:
-    #    start_urls.append(start_url.format(user_id=user_id))
+        if id not in unfinished_items:
+            process_id.append(id)
+            start_urls.append(start_url.format(user_id=id))
+
+
 
     def start_requests(self):
+        n=0
         for start_url in self.start_urls:
+            #self.current_token=self.lists[n]
             yield Request(url=start_url,callback=self.parse_act,dont_filter=True)
             print("在这里第一页应该爬取结束了")
             print("在这里应该进入下一页了才对")
             yield Request(url=start_url,callback=self.parse_next,dont_filter=True)
+            n+=1
 
 
     def parse_act(self, response):
         results=response.text
+        url=response.url
+        token=get_token_from_url(url)
+        if token not in self.unfinished_items:
+            self.unfinished_items[token]=url
+        else:
+            self.unfinished_items[token]=url
+
+
+
+
         js=json.loads(results)
         results=js['data']
         print('在这里应该爬取到了东西')
         n=0
 
         for result in results:
+
             print(n)
             n+=1
             #print(result['verb'])
@@ -88,7 +146,7 @@ class ZhihuactSpider(scrapy.Spider):
                              'ANSWER_VOTE_UP',
                              'MEMBER_COLLECT_ANSWER')):
                     item['type']=type
-                    item['question_id']=result['target']['id']
+                    item['question_id']=result['target']['question']['id']
                     item['title']=result['target']['question']['title']
                     item['voteup_count']=result['target']['voteup_count']
                     item['topics']=result['target']['question']['bound_topic_ids']
@@ -126,18 +184,46 @@ class ZhihuactSpider(scrapy.Spider):
     def parse_next(self,response):
 
         results = response.text
+        print(get_token_from_url(response.url))
         js = json.loads(results)
         if js.get('paging').get('is_end')==False:
             if js.get('paging').get('next'):
                 next_url=js['paging']['next']
-        else:
-            pass
 
-        yield Request(url=next_url,callback=self.parse_act,dont_filter=True)
-        print("在这里的地方进行了换页")
-        time.sleep(2)
-        yield Request(url=next_url,callback=self.parse_next,dont_filter=True)
-        print("在这里换到了下下页")
+
+
+
+            yield Request(url=next_url,callback=self.parse_act,dont_filter=True)
+            print("在这里的地方进行了换页")
+            time.sleep(5)
+            yield Request(url=next_url,callback=self.parse_next,dont_filter=True)
+            print("在这里换到了下下页")
+
+        else:
+            '''在这里识别删除未完成的url记录，并记录'''
+
+            token = get_token_from_url(response.url)
+            self.finished_id.append(token)
+
+            self.unfinished_items[token]=None
+            return None
+
+def get_token_from_url(url):
+    s=url.split("/")
+    return s[6]
+
+
+
+
+
+
+if __name__=="__main__":
+    url='https://www.zhihu.com/api/v4/members/2333/activities?limit=8&desktop=True'
+    print(get_token_from_url(url))
+
+
+
+
 
 
 

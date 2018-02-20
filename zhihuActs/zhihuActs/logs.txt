@@ -1,0 +1,278 @@
+
+*********************************
+start_time:
+Mon Feb 19 12:28:29 2018
+finished_time:
+Mon Feb 19 12:30:07 2018
+process_id:
+
+*********************************
+start_time:
+Mon Feb 19 12:35:38 2018
+finished_time:
+Mon Feb 19 12:39:33 2018
+process_id:
+['bei-ming-cheng-hai-sheng', 'ligelicai', 'scarlett-sun-1987', 'nick-yin-47', 'zhou-fu-xin-67', 'dr-song-41', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+['zhou-fu-xin-67']
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'ligelicai', 'scarlett-sun-1987', 'nick-yin-47', 'dr-song-41', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+
+*********************************
+start_time:
+Mon Feb 19 12:45:32 2018
+finished_time:
+Mon Feb 19 12:47:27 2018
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou', 'zhou-fu-xin-67', 'bei-ming-cheng-hai-sheng', 'ligelicai', 'scarlett-sun-1987', 'nick-yin-47', 'zhou-fu-xin-67', 'dr-song-41', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+[]
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou', 'zhou-fu-xin-67', 'bei-ming-cheng-hai-sheng', 'ligelicai', 'scarlett-sun-1987', 'nick-yin-47', 'zhou-fu-xin-67', 'dr-song-41', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+
+*********************************
+start_time:
+Mon Feb 19 13:03:33 2018
+finished_time:
+Mon Feb 19 13:03:33 2018
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou', 'zhou-fu-xin-67']
+finished_id:
+[]
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou', 'zhou-fu-xin-67']
+
+*********************************
+start_time:
+Mon Feb 19 13:05:34 2018
+finished_time:
+Mon Feb 19 13:08:35 2018
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou', 'zhou-fu-xin-67']
+finished_id:
+['zhou-fu-xin-67']
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+
+*********************************
+start_time:
+Mon Feb 19 13:19:36 2018
+finished_time:
+Mon Feb 19 13:19:36 2018
+process_id:
+[]
+finished_id:
+[]
+unfinisehed_id:
+[]
+
+*********************************
+start_time:
+Mon Feb 19 13:19:55 2018
+finished_time:
+Mon Feb 19 13:19:55 2018
+process_id:
+[]
+finished_id:
+[]
+unfinisehed_id:
+[]
+
+** *******************************
+start_time:
+Mon Feb 19 13:20:22 2018
+finished_time:
+Mon Feb 19 13:22:18 2018
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+[]
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+
+*********************************
+start_time:
+Mon Feb 19 13:45:23 2018
+finished_time:
+Mon Feb 19 13:55:26 2018
+start_num:
+
+*********************************
+start_time:
+Mon Feb 19 13:58:16 2018
+finished_time:
+Mon Feb 19 14:00:51 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+[]
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+锟侥凤拷时锟斤拷:
+0小时2锟斤拷锟斤拷35.62682366371155锟斤拷
+
+*********************************
+start_time:
+Tue Feb 20 03:13:35 2018
+finished_time:
+Tue Feb 20 03:15:19 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+[]
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+耗费时间:
+0小时1分钟44.2729115486145秒
+
+*********************************
+start_time:
+Tue Feb 20 03:16:05 2018
+finished_time:
+Tue Feb 20 03:32:09 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'scarlett-sun-1987', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+['scarlett-sun-1987', 'ligelicai']
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'nick-yin-47', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+耗费时间:
+0小时16分钟4.901067733764648秒
+
+*********************************
+start_time:
+Tue Feb 20 03:35:07 2018
+finished_time:
+Tue Feb 20 03:38:00 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+['ligelicai', 'liu-ceng-lou']
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'nick-yin-47', 'dou-ze-nan-51', 'shijiuliu', 'robotong']
+cost_time:
+0hour2minutes52.91408371925354seconds
+
+*********************************
+start_time:
+Tue Feb 20 03:45:15 2018
+finished_time:
+Tue Feb 20 03:45:16 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+[]
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+cost_time:
+0hour0minutes1.1181745529174805seconds
+
+*********************************
+start_time:
+Tue Feb 20 03:48:21 2018
+finished_time:
+Tue Feb 20 03:48:59 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'nick-yin-47', 'ligelicai', 'dou-ze-nan-51', 'shijiuliu', 'robotong', 'liu-ceng-lou']
+finished_id:
+['ligelicai', 'liu-ceng-lou']
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'nick-yin-47', 'dou-ze-nan-51', 'shijiuliu', 'robotong']
+cost_time:
+0hour0minutes38.306883811950684seconds
+
+*********************************
+start_time:
+Tue Feb 20 11:52:28 2018
+finished_time:
+Tue Feb 20 12:12:06 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng', 'dr-song-41', 'nick-yin-47', 'dou-ze-nan-51', 'shijiuliu', 'robotong']
+finished_id:
+['dou-ze-nan-51', 'dr-song-41', 'nick-yin-47', 'shijiuliu', 'robotong']
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng']
+cost_time:
+0hour19minutes37.57967782020569seconds
+
+*********************************
+start_time:
+Tue Feb 20 12:16:36 2018
+finished_time:
+Tue Feb 20 12:16:37 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng', 'dou-ze-nan-51', 'shijiuliu']
+finished_id:
+['dou-ze-nan-51', 'shijiuliu']
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng']
+cost_time:
+0hour0minutes0.9845080375671387seconds
+
+*********************************
+start_time:
+Tue Feb 20 12:16:55 2018
+finished_time:
+Tue Feb 20 12:16:56 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng']
+finished_id:
+[]
+unfinisehed_id:
+['bei-ming-cheng-hai-sheng']
+cost_time:
+0hour0minutes0.6999762058258057seconds
+
+*********************************
+start_time:
+Tue Feb 20 12:19:32 2018
+finished_time:
+Tue Feb 20 12:19:33 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['bei-ming-cheng-hai-sheng']
+finished_id:
+['bei-ming-cheng-hai-sheng']
+unfinisehed_id:
+[]
+cost_time:
+0hour0minutes0.7840061187744141seconds
