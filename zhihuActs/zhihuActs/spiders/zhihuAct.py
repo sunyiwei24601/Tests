@@ -190,12 +190,10 @@ class ZhihuactSpider(scrapy.Spider):
             if js.get('paging').get('next'):
                 next_url=js['paging']['next']
 
-
-
-
+            time.sleep(6)
             yield Request(url=next_url,callback=self.parse_act,dont_filter=True)
             print("在这里的地方进行了换页")
-            time.sleep(5)
+
             yield Request(url=next_url,callback=self.parse_next,dont_filter=True)
             print("在这里换到了下下页")
 

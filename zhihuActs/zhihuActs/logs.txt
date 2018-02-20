@@ -276,3 +276,21 @@ unfinisehed_id:
 []
 cost_time:
 0hour0minutes0.7840061187744141seconds
+
+*********************************
+start_time:
+Tue Feb 20 14:06:17 2018
+finished_time:
+Tue Feb 20 15:03:18 2018
+start_num:
+10
+end_num:
+100
+process_id:
+['zhou-fu-xin-67', 'richardliu', 'tian.chuan', 'banfoxianren', 'kongxinluobo', 'qiyanxinshe', 'qi-wei-14-23', 'lanyu88', 'wei-wei-34-52', 'xhtlj', '2003dd', 'van-bruce', 'opjx', 'qiu-jie-23-50-75', 'youzhipage', 'pan-wei-li-28', 'gududerenbushuijiao', 'xuehongyan', 'chuangshihui', 'zhi-shi-jiu-shi-li-liang-13', 'teeny-tiny', 'mei-ya', 'yu-zhang-98', 'so898', 'aiyinxingshu', 'mo-yan-36', 'meng-de-85', 'yang-gai-zhi-98', 'filmbear', 'xuxiaofeng1993', 'huhao80', 'li-mei-li-97', 'drpmdb', 'de-guo-shi-ye-18', 'keledoll', 'simonshao', 'libertas.', 'fenng', 'perkyqin', 'hanxu', 'su-fei-17', 'wu-zhe-gong-yi-wen', 'pi-te-zha-ke', 'ming-wei-shuo', 'sean-yenan', 'liyuqi', 'zhou-max-21', 'zhang-mu-liang', 'bei-ming-you-yu-31-14', 'traderusingpython', 'dongkeren', 'wanenmao', 'yao-xian-sheng-41-59', 'cianmaye', 'you-ren-da-50', '9road', 'yang-lei-34-6', 'sunsiyang', 'zr9558', 'tian-ji-shun', 'lasper-rado', 'zhang-xin-lei-19', 'alex-yu-66', 'binbinmath', 'larry-wang-46', 'he-tao-62-44', 'ying-tong-huo-88', 'laufei', 'yoggcn', 'MrBurning', 'liurenjie-85', 'royal88', 'yeyi', 'wu-bi-cheng-44', 'luo-bei-96-48', 'rickidai', 'zoe-zuo-yi', 'san-di-you-pang-liao', 'lao-da-niu-88', 'peterlai.tw', 'FantasticCathy']
+finished_id:
+['qi-wei-14-23', 'zhou-fu-xin-67', 'pan-wei-li-28']
+unfinisehed_id:
+['richardliu', 'tian.chuan', 'banfoxianren', 'kongxinluobo', 'qiyanxinshe', 'lanyu88', 'wei-wei-34-52', 'xhtlj', '2003dd', 'van-bruce', 'opjx', 'qiu-jie-23-50-75', 'youzhipage', 'gududerenbushuijiao', 'xuehongyan', 'chuangshihui', 'zhi-shi-jiu-shi-li-liang-13', 'teeny-tiny', 'mei-ya', 'yu-zhang-98', 'so898', 'aiyinxingshu', 'mo-yan-36', 'meng-de-85', 'yang-gai-zhi-98', 'filmbear', 'xuxiaofeng1993', 'huhao80', 'li-mei-li-97', 'drpmdb', 'de-guo-shi-ye-18', 'keledoll', 'simonshao', 'libertas.', 'fenng', 'perkyqin', 'hanxu', 'su-fei-17', 'wu-zhe-gong-yi-wen', 'pi-te-zha-ke', 'ming-wei-shuo', 'sean-yenan', 'liyuqi', 'zhou-max-21', 'zhang-mu-liang', 'bei-ming-you-yu-31-14', 'traderusingpython', 'dongkeren', 'wanenmao', 'yao-xian-sheng-41-59', 'cianmaye', 'you-ren-da-50', '9road', 'yang-lei-34-6', 'sunsiyang', 'zr9558', 'tian-ji-shun', 'lasper-rado', 'zhang-xin-lei-19', 'alex-yu-66', 'binbinmath', 'larry-wang-46', 'he-tao-62-44', 'ying-tong-huo-88', 'laufei', 'yoggcn', 'MrBurning', 'liurenjie-85', 'royal88', 'yeyi', 'wu-bi-cheng-44', 'luo-bei-96-48', 'rickidai', 'zoe-zuo-yi', 'san-di-you-pang-liao', 'lao-da-niu-88', 'peterlai.tw', 'FantasticCathy']
+cost_time:
+0hour57minutes0.9300687313079834seconds
