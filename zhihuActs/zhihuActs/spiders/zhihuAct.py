@@ -52,7 +52,7 @@ class ZhihuactSpider(scrapy.Spider):
         pass
     '''选中用户'''
     start_num=10
-    end_num=100
+    end_num=200
     lists=lists[start_num:end_num]
 
 
@@ -190,7 +190,7 @@ class ZhihuactSpider(scrapy.Spider):
             if js.get('paging').get('next'):
                 next_url=js['paging']['next']
 
-            time.sleep(6)
+            #time.sleep(7)
             yield Request(url=next_url,callback=self.parse_act,dont_filter=True)
             print("在这里的地方进行了换页")
 

@@ -50,7 +50,7 @@ DEFAULT_REQUEST_HEADERS = {
     'authorization': 'Bearer 2|1:0|10:1518512590|4:z_c0|92:Mi4xa0pzZ0FBQUFBQUFBd0d6dWU2c2pEU1lBQUFCZ0FsVk56dmR2V3dCdVdlcy1MSHQ1MkFyM1dXSlpLaF9MaXcyalJ3|5c98ec54dd91baa05f5d265ba19e034bcb28f36959ff93b47bb3a598bdbccb18',
         'x-udid': 'AFAs9vEGJQ2PTsPE0PGKRyCNYtPjokHiT9w=',
     'origin': 'https://www.zhihu.com',
-    'Cookie': 'q_c1=e84afa18f842439ca6ea21290194baad|1516079712000|1516079712000; capsion_ticket="2|1:0|10:1518526594|14:capsion_ticket|44:MzZmYTA5ZDhjODNhNDkxMWE2ZjY1ZjE2M2U4ZmVhOTg=|13385ee6293961418dbe0c83ca428134430914125f0507a0ca2dee459f432ad1"; _zap=dd4d01dc-f921-46ec-a2d0-ad9df7450d9b; infinity_uid="2|1:0|10:1518444407|12:infinity_uid|24:OTQ0MjM1MDY5MzQzMzI2MjA4|ad21e515a371893417557951f2486ff6e90425b55a60b4517b6ac15199481526"; r_cap_id="NjE1NTE1NzEyZTc3NDhkM2I4MDM2MjFjZWM5MTZkMWU=|1517975681|a0563d3befb7734c445b550f001580c2cbab4761"; cap_id="ZThlYTQ5ZDZhZWY3NDQ4ODg4YjRhYzhlZThiMmY2MzM=|1517975681|b524868055889c9c2da89cbbd0d5b24ff75f0ae5"; l_cap_id="ODY4NzY4NGU1NTk2NDVmYTk0MmU3ZTU2NmZiNmYwZjU=|1517975681|5adebf91419832e004ee009defc177d5f29bf3d2"; z_c0="2|1:0|10:1518526596|4:z_c0|92:Mi4xa0pzZ0FBQUFBQUFBa092TFdZUWlEU1lBQUFCZ0FsVk5oQzV3V3dEa0gwLUpmNkFrRVhwSUUzNWxqQmpDdC1qd3JB|ddeaa883cf6ea466bc51c157d45bae606bd6edebf583964204fd9e5e0d9e60c3"; aliyungf_tc=AQAAAOuoxlRwlQ0Ac9xTcuV+4Rg902jE; _xsrf=fba40c48-af92-49b9-8b02-6b9f7f204d45; d_c0="AJDry1mEIg2PTsBoseanVvvBtenQbIZZapQ=|1518434695"',
+    #'Cookie': 'q_c1=e84afa18f842439ca6ea21290194baad|1516079712000|1516079712000; capsion_ticket="2|1:0|10:1518526594|14:capsion_ticket|44:MzZmYTA5ZDhjODNhNDkxMWE2ZjY1ZjE2M2U4ZmVhOTg=|13385ee6293961418dbe0c83ca428134430914125f0507a0ca2dee459f432ad1"; _zap=dd4d01dc-f921-46ec-a2d0-ad9df7450d9b; infinity_uid="2|1:0|10:1518444407|12:infinity_uid|24:OTQ0MjM1MDY5MzQzMzI2MjA4|ad21e515a371893417557951f2486ff6e90425b55a60b4517b6ac15199481526"; r_cap_id="NjE1NTE1NzEyZTc3NDhkM2I4MDM2MjFjZWM5MTZkMWU=|1517975681|a0563d3befb7734c445b550f001580c2cbab4761"; cap_id="ZThlYTQ5ZDZhZWY3NDQ4ODg4YjRhYzhlZThiMmY2MzM=|1517975681|b524868055889c9c2da89cbbd0d5b24ff75f0ae5"; l_cap_id="ODY4NzY4NGU1NTk2NDVmYTk0MmU3ZTU2NmZiNmYwZjU=|1517975681|5adebf91419832e004ee009defc177d5f29bf3d2"; z_c0="2|1:0|10:1518526596|4:z_c0|92:Mi4xa0pzZ0FBQUFBQUFBa092TFdZUWlEU1lBQUFCZ0FsVk5oQzV3V3dEa0gwLUpmNkFrRVhwSUUzNWxqQmpDdC1qd3JB|ddeaa883cf6ea466bc51c157d45bae606bd6edebf583964204fd9e5e0d9e60c3"; aliyungf_tc=AQAAAOuoxlRwlQ0Ac9xTcuV+4Rg902jE; _xsrf=fba40c48-af92-49b9-8b02-6b9f7f204d45; d_c0="AJDry1mEIg2PTsBoseanVvvBtenQbIZZapQ=|1518434695"',
     'Connection':' keep-alive'
 }
 
@@ -80,18 +80,26 @@ ITEM_PIPELINES = {
      'zhihuActs.pipelines.save_activities_mysql_pipeline':400,
 }
 
+DOWNLOAD_DELAY=2.5
+RANDOM_DOWNLOAD_DELAY= True
+CONCURRENT_REQUESTS=10
+
+
+
+
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
 # The initial download delay
-#AUTOTHROTTLE_START_DELAY = 5
+#AUTOTHROTTLE_START_DELAY = 1.0
 # The maximum download delay to be set in case of high latencies
 #AUTOTHROTTLE_MAX_DELAY = 60
 # The average number of requests Scrapy should be sending in parallel to
 # each remote server
 #AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # Enable showing throttling stats for every response received:
-#AUTOTHROTTLE_DEBUG = False
+#AUTOTHROTTLE_DEBUG = True
 
 # Enable and configure HTTP caching (disabled by default)
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
