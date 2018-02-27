@@ -4,6 +4,7 @@ import json
 from zhihuActs.items import actsItem
 from scrapy import Request
 import csv
+import requests
 import time
 '''运行该命令，可暂停爬虫scrapy crawl somespider -s JOBDIR=crawls/somespider-1'''
 
@@ -11,11 +12,16 @@ class ZhihuactSpider(scrapy.Spider):
     '''记录时间'''
     time1=time.ctime()
     ctime1=time.time()
+    scrapy_times=0
+    def __init__(self):
+        self.ips=[]
+        self.refresh_proxies()
 
     '''提取目标token'''
     name = 'zhihuAct'
     filename=r'C:\Users\孙轶伟\PycharmProjects\tests\zhihuActs\zhihuActs\token_url.csv'
     lists=[]
+
     with open(filename,newline='',encoding='utf-8') as file:
         reader=csv.reader(file)
         for row in reader:
@@ -38,21 +44,25 @@ class ZhihuactSpider(scrapy.Spider):
 
 
 
-
+    finished_all=0
     unfinished_token=[]
     unfinished_urls=[]
     try:
         with open("unfinished_url.txt") as f:
             unfinished_items=json.load(f)
             for log_token in unfinished_items:
+
                 if(unfinished_items[log_token]):
                     process_id.append(log_token)
                     unfinished_urls.append(unfinished_items[log_token])
+                else:
+                    finished_all+=1
+
     except:
         pass
     '''选中用户'''
-    start_num=10
-    end_num=200
+    start_num=400
+    end_num=1180
     lists=lists[start_num:end_num]
 
 
@@ -72,7 +82,7 @@ class ZhihuactSpider(scrapy.Spider):
         for start_url in self.start_urls:
             #self.current_token=self.lists[n]
             yield Request(url=start_url,callback=self.parse_act,dont_filter=True)
-            print("在这里第一页应该爬取结束了")
+            #print("在这里第一页应该爬取结束了")
             print("在这里应该进入下一页了才对")
             yield Request(url=start_url,callback=self.parse_next,dont_filter=True)
             n+=1
@@ -92,12 +102,12 @@ class ZhihuactSpider(scrapy.Spider):
 
         js=json.loads(results)
         results=js['data']
-        print('在这里应该爬取到了东西')
+        #print('在这里应该爬取到了东西')
         n=0
 
         for result in results:
 
-            print(n)
+            #print(n)
             n+=1
             #print(result['verb'])
             #print(result)
@@ -192,10 +202,10 @@ class ZhihuactSpider(scrapy.Spider):
 
             #time.sleep(7)
             yield Request(url=next_url,callback=self.parse_act,dont_filter=True)
-            print("在这里的地方进行了换页")
+            #print("在这里的地方进行了换页")
 
             yield Request(url=next_url,callback=self.parse_next,dont_filter=True)
-            print("在这里换到了下下页")
+            #print("在这里换到了下下页")
 
         else:
             '''在这里识别删除未完成的url记录，并记录'''
@@ -205,6 +215,14 @@ class ZhihuactSpider(scrapy.Spider):
 
             self.unfinished_items[token]=None
             return None
+
+    def refresh_proxies(self):
+        url='http://piping.mogumiao.com/proxy/api/get_ip_bs?appKey=e7f3fa1600e6487c914304f97af0cd2c&count=10&expiryDate=5&format=2'
+        s=requests.get(url)
+        print(s.text)
+        t = s.text
+        self.ips = t.split('\n')[0:-1]
+
 
 def get_token_from_url(url):
     s=url.split("/")

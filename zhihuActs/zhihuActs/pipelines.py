@@ -69,7 +69,10 @@ class save_activities_mysql_pipeline(object):
             url_token= str(item.get('url_token','Null')),
             user_id=str(item.get('user_id','Null')),
             voteup_count=str(item.get('voteup_count','Null')),)
-        self.cursor.execute(sql)
+        try:
+            self.cursor.execute(sql)
+        except:
+            self.db.rollback()
         self.db.commit()
         return item
 
@@ -100,6 +103,7 @@ class save_activities_mysql_pipeline(object):
         log_text["finished_id"]=str(spider.finished_id)
         log_text["unfinisehed_id"]=str(delete_id)
         log_text["cost_time"]=cal_time(ctime2-spider.ctime1)
+        log_text['finished_all']=str(spider.finished_all)
         filename="logs.txt"
         log_save(filename,log_text)
 

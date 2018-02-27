@@ -163,3 +163,42 @@ JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, li
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1519436411639	geckodriver	INFO	geckodriver 0.19.1
+1519436411639	geckodriver	INFO	Listening on 127.0.0.1:55461
+1519436414755	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.W3e6FvtMP3cB"
+1519436415676	Marionette	INFO	Enabled via --marionette
+1519436418949	Marionette	INFO	Listening on port 55471
+1519436419011	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 26: SyntaxError: expected expression, got '<'
+[Parent 2868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11196, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519437700952	geckodriver	INFO	geckodriver 0.19.1
+1519437700968	geckodriver	INFO	Listening on 127.0.0.1:55481
+1519437704038	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.StVDLt4aMtre"
+1519437704768	Marionette	INFO	Enabled via --marionette
+1519438767492	geckodriver	INFO	geckodriver 0.19.1
+1519438767492	geckodriver	INFO	Listening on 127.0.0.1:55718
+1519438770585	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.rsDALdC8yN61"
+1519438771240	Marionette	INFO	Enabled via --marionette
+1519438773533	Marionette	INFO	Listening on port 55726
+1519438773734	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519439100830	geckodriver	INFO	geckodriver 0.19.1
+1519439100830	geckodriver	INFO	Listening on 127.0.0.1:55378
+1519439103935	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\孙轶伟\\AppData\\Local\\Temp\\rust_mozprofile.JUzSSvTXKfe2"
+1519439104497	Marionette	INFO	Enabled via --marionette
+1519439106232	Marionette	INFO	Listening on port 55386
+1519439107103	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 9996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5260, C[Child 11304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11304, Chrome_Chi[Parent 9996, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

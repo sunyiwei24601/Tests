@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-import requests
+
 # Define here the models for your spider middleware
 #
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-import random
 
-class ZhihuactsSpiderMiddleware(object):
+
+class MaxSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -54,35 +54,3 @@ class ZhihuactsSpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
-
-#代理服务器获取
-class ProxyMiddleware(object):
-    def __init__(self):
-
-        pass
-
-    def process_request(self,request,spider):
-        if spider.ip==None:
-            p=requests.get('http://localhost:5000/get')
-            spider.ip=p.text
-        else:
-            if(spider.scrapy_times==10):
-                spider.scrapy_times=0
-                p = requests.get('http://localhost:5000/get')
-                spider.ip = p.text
-            else:
-                spider.scrapy_times+=1
-        request.meta['proxy']='http://{}'.format(spider.ip)
-
-class Proxy_Bought_Middleware(object):
-    def __init__(self):
-        pass
-    def process_request(self,spider,request):
-        if(spider.scrapy_times>1500):
-            spider.refresh_proxies()
-            spider.scrapy_times=0
-        else:
-            spider.scrapy_times+=1
-
-
-        request.meta['proxy']='http://{}'.format(random.choice(spider.ips))
