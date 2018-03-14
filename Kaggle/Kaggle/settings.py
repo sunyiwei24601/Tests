@@ -69,7 +69,7 @@ DEFAULT_REQUEST_HEADERS = {
 ITEM_PIPELINES = {
    'Kaggle.pipelines.KagglePipeline': 300,
 }
-LOG_LEVEL='INFO'
+#LOG_LEVEL='INFO'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True

@@ -10,7 +10,7 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = 'kagglerank'
-
+LOG_LEVEL='INFO'
 SPIDER_MODULES = ['kagglerank.spiders']
 NEWSPIDER_MODULE = 'kagglerank.spiders'
 
@@ -40,10 +40,10 @@ ROBOTSTXT_OBEY =False
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-  'Accept-Language': 'en',
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0',
-
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:58.0) Gecko/20100101 Firefox/58.0',
+    'Cookie':'intercom-id-koj6gxx6=5296acaa-8a07-4d4d-a08a-2dd76f447e6f; __stripe_mid=99a2f1bf-f79d-4045-812e-044b3d287779; __RequestVerificationToken=iiumo2s5zpCSIZwVfvZaE0lKoyAUyJFr4YCEk9qfsnaoLKE58Cp6R1GdSUH6KIXw1bjgyZmtzc98nGQXPQ5mDZlNB4s1; ARRAffinity=b1bb1165b64053f3b2487920451d9f426ed0f0ef7cf8b948912fb5400e1daca9; ai_user=UqPj7|2018-03-06T16:05:11.861Z; _ga=GA1.2.499892106.1520352316; _gid=GA1.2.1508100693.1520352316; ai_session=YbslF|1520352335190.52|1520352335190.52; TempData=_VMTwedzhVUrGrbdAGQ3IhCuOTS8ITf1KqqqRNO5DnHKDM59w15TM4N47HLtfwdAbXYDQswhZMEh9DBnwtmRlrAoSvtoK17OeWY7l/bVht79feebgufYerpNV1C715Nv9sgbNeqVyP7hVhXwhOrS014SRES8mDICLgodyYL+z2lu3yaSsqulpNqp2ee9bAUbmhksvmKE+r7c8Dmb4PkJNZKnnMso='
 
 
 
@@ -59,9 +59,9 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'kagglerank.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    'kagglerank.middlewares.KagglerankSpiderMiddleware': 543,
+}
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
@@ -72,7 +72,8 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'kagglerank.pipelines.KagglerankPipeline': 300,
+  # 'kagglerank.pipelines.KagglerankPipeline': 300,
+    'kagglerank.pipelines.kernels_mysql_save':400
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
